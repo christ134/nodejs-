@@ -10,6 +10,8 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "lodash": "~4.17.11",
-    "express": "~4.16.4"
+    "express": "~4.16.4",
+    "handlebars": "~4.1.1",
+    "express-handlebars": "~3.0.2"
   }
 }
