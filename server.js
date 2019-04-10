@@ -12,10 +12,10 @@ app.post('/register',(req,res)=>{
    var admno=req.body.admno;
    var email=req.body.getemail;
   
-   res.send(name);
-   res.send(admno);
-   res.send(email);
-   res.send(password);
+   res.send(name + password + admno + email);
+   res.send(name + password + admno + email);
+   res.send(name + password + admno + email);
+   res.send(name + password + admno + email);
    
 });
 app.get('/', (req, res) => {
