@@ -6,10 +6,14 @@
     app.use(express.static('views/static'));
     app.use(express.urlencoded());
 
-app.post('/getdata',(req,res)=>{
-   var name=req.body.getemail;
-   var adress=req.body.gepass;
-   res.send(name);
+app.post('/register',(req,res)=>{
+   var name=req.body.name;
+   var password=req.body.getpass;
+   var admno=req.body.admno;
+   var email=req.body.getemail;
+  
+   res.send(name + password + admno + email);
+   
 });
 app.get('/', (req, res) => {
 res.render('index',{name:'chris'});   
