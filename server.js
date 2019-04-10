@@ -28,9 +28,9 @@ app.post('/login',(req,res)=>{
     var user=req.body.username;
     var pass=req.body.password;
     if (user=="admin" && pass==1234)
-        res.send("success");
+        res.send('success');
     else
-        res.send('user')
+        res.send('failed')
 });
 
 
