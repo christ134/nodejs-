@@ -30,7 +30,7 @@ app.post('/login',(req,res)=>{
     if (user=="admin" && pass==1234)
         res.send("success");
     else
-        res.send("failed")
+        res.send('user')
 });
 
 
