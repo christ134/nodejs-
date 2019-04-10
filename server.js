@@ -19,7 +19,7 @@ app.post('/register',(req,res)=>{
    
 });
 app.get('/', (req, res) => {
-res.render('index',{name:'chris'});   
+res.render('index',{name:"chris"});   
 });
 app.get('/about',(req,res)=>{
 res.render('about');   
